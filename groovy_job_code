@@ -58,7 +58,7 @@ job('task6-job3') {
                        }
     publishers {
          extendedEmail {
-              reciptientList('aasthasaxena217@gmail.com')
+              recipientList('aasthasaxena217@gmail.com')
               defaultSubject('Job status')
                  attachBuidLog(attachBuildLog = true)
               defaultContent('Status Report')
@@ -69,7 +69,7 @@ job('task6-job3') {
                     content('Body')
                     sendTo {
                         developers()
-                        recipentList()
+                        recipientList()
                     }
                  }
               }
