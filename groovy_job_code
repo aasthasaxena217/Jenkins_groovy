@@ -15,7 +15,7 @@ job('task6-job1') {
 }
 
 
-job('task6-job2) {
+job('task6-job2') {
      description('This is job2')
           scm {
                   github('aasthasaxena217/Jenkins_groovy.git','master')
