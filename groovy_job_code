@@ -40,8 +40,8 @@ job('task6-job2') {
                  }
 }
 
-job('task6-job3) {
-    description('job3')
+job('task6-job3') {
+    description('This is job3')
         triggers {
                         upstream('task-6-job2', 'SUCCESS')
                         }
